@@ -1,0 +1,133 @@
+        /*
+         Some Style Themes enhanced with background textures provided by http://subtlepatterns.com/
+         */
+        body {
+            background-image: url(pw_maze_white.png);
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: top left;
+            background-size: auto;
+	    color: #333333;	/* dark gray */
+        }
+ 
+        img {
+            padding-right:1px;
+        }
+
+        XXsmall {
+                font-size: 1.0rem;
+                floatxx:left;
+        }
+
+       .XXcnTitle1
+       {
+	float:left;
+       }
+
+        .Text_2_Default,
+        .alta_inner_heading_wrap {
+            word-wrap: break-word;        }
+
+        .alta_bg_overlay {
+            display: table;
+            table-layout: fixed;
+            min-height: 100vh;
+            min-width: 100%;
+            width: 100%;
+            height: 100%;
+        }
+
+        .alta_outer_content_wrapper {
+            padding-top: 100px;
+            padding-right: 0px;
+            padding-bottom: 50px;
+            padding-left: 0px;
+        }
+
+        .alta_inner_bg_overlay {
+            display: table-cell;
+            width: 100%;
+            min-height: 100vh;
+            vertical-align: top;
+        }
+
+        .heading_wrap {
+            text-align: center;
+            margin: 0 auto;
+            display: table;
+            width: 100%;
+            text-align: center;
+            background-attachment: scroll;
+            background-color: #f5f5f5;
+            max-width: 1100px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(ban.jpg);
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+
+        .alta_content_wrap {
+            margin: 0 auto;
+            max-width: 1100px;
+            background-color: #f5f5f5;
+        }
+
+        .content_column {
+            margin: 0 auto;
+            min-height: 200px;
+            padding-top: 40px;
+            padding-right: 50px;
+            padding-bottom: 40px;
+            padding-left: 50px;
+        }
+
+        .alta_inner_footer_wrap {
+            padding: 0 20px;
+        }
+
+
+
+        /* Site Title */
+        h1,#sys_heading, a#sys_heading, #sys_banner h1 a, #header h1 a, div#heading h1 a {
+            font-family: 'Voltaire';
+            font-size: 4.4rem;
+            color: #7a7a7a;
+            text-decoration: none;
+            letter-spacing: 1.9rem;
+            line-height: 1.5em;
+            text-transform: uppercase;
+        }
+        /* Hyperlinks (a, a:hover, a:visited) */
+        a, .sys_txt a:link, .sys_layout a:link {
+            color: #797979;
+        }
+
+        a, .sys_txt a:link, .sys_layout a:link {
+            text-decoration: none;
+        }
+
+            a:visited, .sys_txt a:visited, .sys_layout a:visited {
+                color: #797979;
+            }
+
+            a:hover, .sys_txt a:hover, .sys_layout a:hover {
+                color: #797979;
+            }
+
+            a:hover, .sys_txt a:hover, .sys_layout a:hover {
+                text-decoration: underline;
+            }
+        /* Headings (h2, h3, h4, h5, h6) */
+        .sys_layout h2, .sys_txt h2 {
+            font-family: 'Allerta';
+            font-size: 2.0rem;
+            color: #353535;
+            text-decoration: none;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+            text-transform: none;
+        }
+
+
